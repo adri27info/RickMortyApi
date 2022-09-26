@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: wheat;
+  min-height: 100vh;
+}
+
+div.contenedor {
+  width: 80%;
+  margin: 0px auto;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+
+div.contenedor div.contenedorBotones {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+div.contenedorBotones button {
+  padding: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+div.contenedor h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+div.contenedor div.divContenedorCaracter {
+  margin-bottom: 50px;
+  border: 3px solid black;
+  width: 300px;
+  padding: 10px;
+}
+
+div.divContenedorCaracter img.imagenCaracter {
+  width: 100%;
+}
+
+div.divContenedorCaracter p.parrafoNombre {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 768px) {
+  div.contenedor {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 1100px) {
+}
+
+@media only screen and (max-width: 1820px) {
+}
