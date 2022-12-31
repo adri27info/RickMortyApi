@@ -26,8 +26,8 @@ The project has been created with:
 
 To run this project, we need the following steps:
 
+- Download and install vscode at the following link: https://code.visualstudio.com/download
+
 - Download the Live Server extension, which is found in the vscode editor
 
 - Once the extension is downloaded, run the extension and everything will work correctly
-
-- If you get an error, try running the application normally using the index.html file
